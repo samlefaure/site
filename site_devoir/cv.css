@@ -1,0 +1,139 @@
+/* Header */
+header
+{
+background: url('images/.png') repeat-x bottom;
+}
+#titre_principal
+{
+color: white;
+display: inline-block;
+}
+header h1
+{
+font-family: 'BallparkWeiner', serif;
+font-size: 2.5em;
+font-weight: normal;
+}
+#img, header h1
+{
+display: inline-block;
+margin-bottom: 40px;
+}
+header h2
+{
+font-family: Dayrom, serif;
+font-size: 1.1em;
+margin-top: 0px;
+font-weight: normal;
+}
+#ancre, header h1
+{
+	color: white;
+display: inline-block;
+}
+/* Navigation */
+nav
+{
+padding-bottom: 18px;
+text-align: right;
+justify-self: end;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 15px
+}
+nav a
+{
+font-size: 1.3em;
+color: white;
+padding-bottom: 3px;
+text-decoration: none;
+}
+nav a:hover
+{
+color:;
+}
+em
+{
+	color:green;
+}
+ul
+{
+	color:white;
+}
+/* Footer */
+footer
+{
+	/* background-image: url('../image/tortu_1.jpg');*/
+	background-color: #1c1a19;
+	background-size: cover;
+	padding-top: 25px;
+	box-shadow: 6px 6px 10px fuchsia ;
+	height: 250px;
+	color: aliceblue;
+}
+footer p, footer ul
+{
+	font-size: 1.6em;
+	color: aliceblue;
+}
+footer h1
+{
+	font-size: 1.1em;
+}
+#citation, #image, #ani
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#citation
+{
+	width: 28%;
+	color:red;
+}
+#image
+{
+	width: 35%;
+	color: yellow;
+}
+#ani
+{
+	overflow: visible;
+	width: 31%;
+	color: white;
+}
+#image img
+{
+	margin-right: 2px;
+}
+#ani ul
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	width: 48%;
+	padding-left: 2px;
+}
+#ani a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#de
+{
+	color:white;
+}
+article p
+{
+	color:white
+}
+#bro 
+{
+	color:white
+}

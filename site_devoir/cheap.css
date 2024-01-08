@@ -1,0 +1,258 @@
+/* Header */
+header
+{
+background: url('images/.png') repeat-x bottom;
+}
+#titre_principal
+{
+color: white;
+display: inline-block;
+}
+header h1
+{
+font-family: 'BallparkWeiner', serif;
+font-size: 2.5em;
+font-weight: normal;
+}
+#img, header h1
+{
+display: inline-block;
+margin-bottom: 40px;
+}
+header h2
+{
+font-family: Dayrom, serif;
+font-size: 1.1em;
+margin-top: 0px;
+font-weight: normal;
+}
+/* Navigation */
+nav
+{
+padding-bottom: 18px;
+text-align: right;
+justify-self: end;
+}
+nav ul
+{
+list-style-type: none;
+}
+nav li
+{
+display: inline-block;
+margin-right: 15px
+}
+nav a
+{
+font-size: 1.3em;
+color: white;
+padding-bottom: 3px;
+text-decoration: none;
+}
+nav a:hover
+{
+color:;
+}
+
+
+/* BanniÃ¨re */
+#bien
+{
+	margin-top: 15px;
+	height: 200px;
+	border-radius: 5px;
+	background: url('images/sanfrancisco.jpg') no-repeat;
+	position: relative;
+	box-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom: 25px;
+}
+#op
+{
+	position: absolute;
+	bottom: 0;
+	border-radius: 0px 0px 5px 5px;
+	width: 99.5%;
+	height: 33px;
+	padding-top: 15px;
+	padding-left: 4px;
+	background-color: rgb(24,24,24); /* Pour les anciens navigateurs
+*/
+	background-color: rgba(24,24,24,0.8);
+	color: white;
+	font-size: 0.8em;
+}
+.bouton_rouge
+{
+	display: inline-block;
+	height: 25px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	background: url('images/fond_degraderouge.png') repeat-x;
+	border: 1px solid #760001;
+	border-radius: 5px;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 3px 8px 0px 8px;
+	color: white;
+	text-decoration: none;
+}
+.bouton_rouge img
+{
+	border: 3;
+	background-color: green;
+}
+
+
+/* Corps */
+article, aside
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+
+article
+{
+	
+	width: 750px;
+	margin-right: 15px;
+	color: black;
+}
+.ice
+{
+	vertical-align: middle;
+	margin-right: 8px;
+}
+article p
+{
+	font-size: 1em;
+}
+aside
+{
+	position: relative;
+	width: 235px;
+	background-color: #706b64;
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 0.9em;
+	border-radius: 10px;
+	opacity: 2;
+}
+#fleche_bulle
+{
+	position: left;
+	top: 100px;
+	left: -12px;
+}
+#photo_zozor
+{
+	text-align: center;
+}
+#photo_zozor img
+{
+	border: 1px solid #181818;
+}
+aside img
+{
+	margin-right: 5px;
+}
+
+#wech
+{
+	position: relative;
+}
+
+#bro
+{
+	color: purple;
+	position: relative;
+	box-shadow: 6px 6px 10px fuchsia;
+}
+
+#wep
+{
+	color: green;
+	border-radius: 2%;
+	box-shadow: 6px 6px 6px black;
+}
+#vi
+{
+	color: maroon;
+	border: double;
+	box-shadow: 6px 6px 6px maroon;
+}
+
+/* Footer */
+footer
+{
+	/* background-image: url('../image/tortu_1.jpg');*/
+	background-color: #1c1a19;
+	background-size: cover;
+	padding-top: 25px;
+	box-shadow: 6px 6px 10px fuchsia ;
+	height: 250px;
+	color: aliceblue;
+}
+footer p, footer ul
+{
+	font-size: 1.6em;
+	color: aliceblue;
+}
+footer h1
+{
+	font-size: 1.1em;
+}
+#citation, #image, #ani
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#citation
+{
+	width: 28%;
+	color:red;
+}
+#image
+{
+	width: 35%;
+	color: yellow;
+}
+#ani
+{
+	overflow: visible;
+	width: 31%;
+	color: white;
+}
+#image img
+{
+	margin-right: 2px;
+}
+#ani ul
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0;
+	width: 48%;
+	padding-left: 2px;
+}
+#ani a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#de
+{
+	color:white;
+}
+article p
+{
+	color:blue
+}
+#bro 
+{
+	color:blue
+}
